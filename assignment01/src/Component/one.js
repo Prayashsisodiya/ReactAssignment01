@@ -11,11 +11,20 @@ export default function One() {
     }
   return (
     <div>
-      <p>Welcome in  one.js </p>
+        <p>Welcome in  one.js </p> <br />
+        <div className='box'>
+        
       <input type="text" name="colorBox" id="hexCode" placeholder='enter HEX color value' onChange={()=>catchValue()} />
-      {/* <button onClick={() => catchValue()}>Submit</button> */}
+      {/* <button onClick={() => catchValue()}>Submit</button> */} <br />
 
-      <div id="colorPreviewBox"></div>
+      <div id="colorPreviewBox"></div><br />
+      <textarea name="comment" id='feedback' form="userform"placeholder='Feedback!!'></textarea> <br />
+
+        </div> <br />
+      
+
+
+   
     </div>
   )
 }
