@@ -1,4 +1,5 @@
 import React from 'react'
+import './one.css';
 
 export default function One() {
     const catchValue = ()=>{
@@ -10,6 +11,9 @@ export default function One() {
         colorPreviewBox.style.backgroundColor = hexCode;
     }
   return (
+   
+     
+    
     <div>
         <p>Welcome in  one.js </p> <br />
         <div className='box'>
