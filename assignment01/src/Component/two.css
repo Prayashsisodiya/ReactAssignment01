@@ -1,3 +1,63 @@
 body{
-    background-color: red;
+    /* background-color: black; */
+}
+p{
+    font-size: 14px;
+}
+#pictureOne{
+    /* height: ; */
+    width: 70vw;
+}
+#main{
+    /* margin: auto; */
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    /* background-color: gray; */
+}
+#automatic_watch{
+    font-size: 25px;
+}
+#line1{
+    color: rgb(87, 176, 206);
+}
+#line2{
+    font-size: 14px;
+}
+.sub_headings{
+color: rgb(220, 152, 34);
+font-size: 18px;
+}
+#one{grid-area: one;}
+#feature1{grid-area: two;
+font-size: 14px;}
+#feature2{grid-area: three;
+    font-size: 14px;}
+
+#features_div{
+    display: grid;
+   grid-template-areas: 'one one''two three ';
+   
+
+}
+#add_to_cart{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+#add_to_cart  a:visited{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#add{
+    text-decoration: none;
+
+}
+#delivery{
+    text-align: center;
+}
+#truck{
+    height: 16px;
 }
