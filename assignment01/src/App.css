@@ -1,41 +1,147 @@
-.App {
+h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerdiv{
+  height: 150px;
+  border: 1px solid black;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.maindiv{
+  height: auto;
+  min-height: 600px;
+  border: 1px solid black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.buttons_in_header{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 100px;
+  margin: auto;
+}
+.gallery {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#colorPreviewBox{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+#hexCode{
+  margin: auto;
+  margin-left: 60px;
+  border-radius: 5px;
+}
+.box{
+  /* display: flex; */
+
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* background-color: burlywood; */
+  background-color: gray;
+
+  
+}
+#feedback{
+  margin-top: 50px;
+  margin-left: 60px;
+  border-radius: 5px;
+}
+p{
+  text-align: center;
+}
+/* CSS of one.js end */
+
+
+
+p{
+  font-size: 14px;
+}
+#pictureOne{
+  /* height: ; */
+  width: 70vw;
+}
+#main{
+  /* margin: auto; */
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-top: 2vh;
+  /* background-color: gray; */
+}
+#automatic_watch{
+  font-size: 25px;
+}
+#line1{
+  color: rgb(87, 176, 206);
+}
+#line2{
+  font-size: 14px;
+}
+.sub_headings{
+color: rgb(220, 152, 34);
+font-size: 18px;
+}
+#one{grid-area: one;}
+#feature1{grid-area: two;
+font-size: 14px;}
+#feature2{grid-area: three;
+  font-size: 14px;}
+
+#features_div{
+  display: grid;
+ grid-template-areas: 'one one''two three ';
+ 
+
+}
+#add_to_cart{
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+#add_to_cart  a:visited{
   color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
+#add{
+  text-decoration: none;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#delivery{
+  text-align: center;
 }
-body{
-  background-color: white;
+#truck{
+  height: 16px;
 }

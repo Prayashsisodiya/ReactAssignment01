@@ -1,9 +1,11 @@
-import './two.css'
+import '../App.css'
 import './Assets/Picture2.png'
 import cargo_truck from './Assets/cargo_truck.png'
 export default function Two() {
     return (
         <div id="main" >
+            <h1>Task 2</h1>
+
             <img id="pictureOne" src="https://mrstateless.com/wp-content/uploads/2020/11/SNK2-1024x621.jpg" alt="Rolex's New Watch" />
             <strong id='automatic_watch'>Automatic Watch</strong> <br />
             <strong>$350.00 USD</strong>

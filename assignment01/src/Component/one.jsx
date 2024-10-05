@@ -1,5 +1,5 @@
 import React from 'react'
-import './one.css';
+import '../App.css';
 
 export default function One() {
     const catchValue = ()=>{
@@ -15,7 +15,7 @@ export default function One() {
      
     
     <div>
-        <p>Welcome in  one.js </p> <br />
+        <h1>Task 1</h1> <br />
         <div className='box'>
         
       <input type="text" name="colorBox" id="hexCode" placeholder='enter HEX color value' onChange={()=>catchValue()} />
