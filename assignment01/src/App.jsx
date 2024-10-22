@@ -15,12 +15,25 @@ import image5 from './Component/Assets/image5.webp'
 import image6 from './Component/Assets/image6.webp'
 
 import Five from './Component/Five';
+import Api_practice from './Component/Api_practice';
+import Use_ref_fun from './Component/Useref';
 
 
 
 function App() {
   const [task, setTask] = useState("Click any task to continue");
 
+  function Use_ref(){
+    setTask(<Use_ref_fun/>)
+    console.log("Use_ref");
+    
+  }
+
+  function api1(){
+    setTask(<Api_practice/>)
+    console.log("api one");
+    
+  }
   function task1(){
     setTask(<One/>)
     console.log("Task 1");
@@ -60,8 +73,10 @@ function App() {
   const emptyArray = [];
   return (
     <div>
-      <Header task1={task1} task2 = {task2} task3 = {task3} task4 = {task4} task5 = {task5} />
+      <Header task1={task1} task2 = {task2} task3 = {task3} task4 = {task4} task5 = {task5} api1 = {api1} Use_ref = {Use_ref} />
       <Main task = {task} />
+
+      
     </div>
   )
 }
